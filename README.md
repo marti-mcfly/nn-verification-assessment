@@ -13,7 +13,7 @@ This repository provides
 
 # Data
 
-# Scripts for Data Analysis
+# Scripts
 
 # Software 
 
