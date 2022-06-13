@@ -19,7 +19,7 @@ This repository provides
 
 ## Tools used
 
-- DNNV version 0.4.8 https://github.com/dlshriver/dnnv
+- DNNV version 0.4.8 (https://github.com/dlshriver/dnnv)
 - ERAN-GPUPoly (https://github.com/eth-sri/eran)
 - OVAL-BaB (https://github.com/oval-group/oval-bab)
 - ab-CROWN (https://github.com/huanzhang12/alpha-beta-CROWN)
