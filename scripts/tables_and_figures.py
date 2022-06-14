@@ -235,7 +235,7 @@ def cdf_per_method(coalition, data,name, names, gpu):
 
     plt.ylabel("Fraction of instances solved")
     # plt.title(title)
-    plt.savefig( 'cdf/'+ name + '.pdf',
+    plt.savefig( 'figures/cdf/'+ name + '.pdf',
                         format='pdf',dpi=150)
 
 def scatter_per_method(coalition, data, name, names,gpu):
@@ -276,7 +276,7 @@ def scatter_per_method(coalition, data, name, names,gpu):
                     ax.set(xlabel= "CPU time [s], " + names[i], ylabel="CPU time [s], " + names[j])
 
                 # plt.title(x)
-                plt.savefig('scatter_plots/' + x , format = 'pdf' )
+                plt.savefig('figures/scatter_plots/' + x , format = 'pdf' )
                 plt.show()
             
 def get_names_and_files(benchmark, categorie):
@@ -296,77 +296,77 @@ def get_names_and_files(benchmark, categorie):
         if(benchmark == "mnist"):
             if("gpu" in categorie):
                 names = ["BaDNB", "GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_MNIST_MAXPOOL_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_MNIST_MAXPOOL_0002.csv')
                 return names, file
             else:
                 names = [ "Marabou"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_mnist_Relu+Maxpool.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_mnist_Relu+Maxpool.csv')
                 return names, file
         elif(benchmark == "cifar"):
             if("gpu" in categorie):
                 names = ["BaDNB", "GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_CIFAR_MAXPOOL_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_CIFAR_MAXPOOL_0002.csv')
                 return names, file
             else:
                 names = ["Marabou"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_cifar_Relu+Maxpool.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_cifar_Relu+Maxpool.csv')
                 return names, file
     elif("Tanh"  in categorie):
         if(benchmark == "mnist"):
             if("gpu" in categorie):
                 names = [ "GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_MNIST_TANH_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_MNIST_TANH_0002.csv')
                 return names, file
             else:
                 names = ["Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_mnist_Tanh.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_mnist_Tanh.csv')
                 return names, file
         elif(benchmark == "cifar"):
             if("gpu" in categorie):
                 names = [ "GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_CIFAR_TANH_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_CIFAR_TANH_0002.csv')
                 return names, file
             else:
                 names = ["Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_cifar_Tanh.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_cifar_Tanh.csv')
                 return names, file
     elif("Sigmoid" in categorie):
         if(benchmark == "mnist"):
             if("gpu" in categorie):
                 names = [ "GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_MNIST_SIGMOID_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_MNIST_SIGMOID_0002.csv')
                 return names, file
             else:
                 names = ["Marabou",  "Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_mnist_Sigmoid.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_mnist_Sigmoid.csv')
                 return names, file
         elif(benchmark == "cifar"):
             if("gpu" in categorie):
                 names = ["GPUPoly"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_CIFAR_SIGMOID_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_CIFAR_SIGMOID_0002.csv')
                 return names, file
             else:
                 names = [ "Marabou",  "Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_cifar_Sigmoid.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_cifar_Sigmoid.csv')
                 return names, file
     elif ("Relu" in categorie):
         if(benchmark == "mnist"):
             if("gpu" in categorie):
                 names = ["BaDNB", "GPUPoly", "beta-CROWN"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_MNIST_RELU_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_MNIST_RELU_0002.csv')
                 return names, file
             else:
                 names = ["BaBSB", "Marabou", "Neurify","nnenum",  "Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_mnist_Relu.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_mnist_Relu.csv')
                 return names, file
         elif(benchmark == "cifar"):
             if("gpu" in categorie):
                 names = ["BaDNB", "GPUPoly", "beta-CROWN"]
-                file = pd.read_csv('scripts/cleaned_data/GPU_CIFAR_RELU_0002.csv')
+                file = pd.read_csv('performance_data/gpu/GPU_CIFAR_RELU_0002.csv')
                 return names, file
             else:
                 names = ["BaBSB", "Marabou", "Neurify","nnenum",  "Verinet"]
-                file = pd.read_csv('scripts/cleaned_data/cpu_cifar_Relu.csv')
+                file = pd.read_csv('performance_data/cpu/cpu_cifar_Relu.csv')
                 return names, file
 
 
