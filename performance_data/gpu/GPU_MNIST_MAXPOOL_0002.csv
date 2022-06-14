@@ -1,0 +1,201 @@
+,0,Dataset,Epsilon,Image,Network,Result,TotalTime,Unnamed: 0,Unnamed: 0.1,Verifier,instance,score,solved,solved_bool
+3,,MNIST,0.002,0.0,Convnet_maxpool.onnx,unsat,60.53660416603088,2.0,0.0,bab,0.0 Convnet_maxpool.onnx 0.002,1,1,True
+3217,,MNIST,0.002,55.0,Convnet_maxpool.onnx,unsat,61.77984404563904,937.0,55.0,bab,55.0 Convnet_maxpool.onnx 0.002,1,1,True
+4100,,MNIST,0.002,68.0,Convnet_maxpool.onnx,unsat,62.73160219192505,1158.0,68.0,bab,68.0 Convnet_maxpool.onnx 0.002,1,1,True
+4037,,MNIST,0.002,67.0,Convnet_maxpool.onnx,unsat,62.43454551696777,1141.0,67.0,bab,67.0 Convnet_maxpool.onnx 0.002,1,1,True
+3972,,MNIST,0.002,66.0,Convnet_maxpool.onnx,unsat,61.209343910217285,1124.0,66.0,bab,66.0 Convnet_maxpool.onnx 0.002,1,1,True
+3911,,MNIST,0.002,65.0,Convnet_maxpool.onnx,unsat,62.59463667869568,1107.0,65.0,bab,65.0 Convnet_maxpool.onnx 0.002,1,1,True
+3848,,MNIST,0.002,64.0,Convnet_maxpool.onnx,unsat,62.08890438079834,1090.0,64.0,bab,64.0 Convnet_maxpool.onnx 0.002,1,1,True
+3784,,MNIST,0.002,63.0,Convnet_maxpool.onnx,unsat,62.377625226974494,1073.0,63.0,bab,63.0 Convnet_maxpool.onnx 0.002,1,1,True
+3720,,MNIST,0.002,62.0,Convnet_maxpool.onnx,sat,62.10319566726685,1056.0,62.0,bab,62.0 Convnet_maxpool.onnx 0.002,1,1,True
+3657,,MNIST,0.002,61.0,Convnet_maxpool.onnx,unsat,61.02183747291565,1039.0,61.0,bab,61.0 Convnet_maxpool.onnx 0.002,1,1,True
+3596,,MNIST,0.002,60.0,Convnet_maxpool.onnx,unsat,62.52254605293274,1022.0,60.0,bab,60.0 Convnet_maxpool.onnx 0.002,1,1,True
+3533,,MNIST,0.002,6.0,Convnet_maxpool.onnx,unsat,61.25524115562439,104.0,6.0,bab,6.0 Convnet_maxpool.onnx 0.002,1,1,True
+3468,,MNIST,0.002,59.0,Convnet_maxpool.onnx,unsat,60.95973563194275,1005.0,59.0,bab,59.0 Convnet_maxpool.onnx 0.002,1,1,True
+3407,,MNIST,0.002,58.0,Convnet_maxpool.onnx,unsat,61.58721137046814,988.0,58.0,bab,58.0 Convnet_maxpool.onnx 0.002,1,1,True
+3344,,MNIST,0.002,57.0,Convnet_maxpool.onnx,unsat,60.34957194328308,971.0,57.0,bab,57.0 Convnet_maxpool.onnx 0.002,1,1,True
+3280,,MNIST,0.002,56.0,Convnet_maxpool.onnx,unsat,62.74168014526367,954.0,56.0,bab,56.0 Convnet_maxpool.onnx 0.002,1,1,True
+3155,,MNIST,0.002,54.0,Convnet_maxpool.onnx,unsat,61.80804538726807,920.0,54.0,bab,54.0 Convnet_maxpool.onnx 0.002,1,1,True
+2145,,MNIST,0.002,4.0,Convnet_maxpool.onnx,unsat,61.49214625358582,70.0,4.0,bab,4.0 Convnet_maxpool.onnx 0.002,1,1,True
+3092,,MNIST,0.002,53.0,Convnet_maxpool.onnx,unsat,61.47338843345642,903.0,53.0,bab,53.0 Convnet_maxpool.onnx 0.002,1,1,True
+3028,,MNIST,0.002,52.0,Convnet_maxpool.onnx,unsat,61.058281898498535,886.0,52.0,bab,52.0 Convnet_maxpool.onnx 0.002,1,1,True
+2965,,MNIST,0.002,51.0,Convnet_maxpool.onnx,unsat,62.81980180740357,869.0,51.0,bab,51.0 Convnet_maxpool.onnx 0.002,1,1,True
+2901,,MNIST,0.002,50.0,Convnet_maxpool.onnx,unsat,61.24988603591919,852.0,50.0,bab,50.0 Convnet_maxpool.onnx 0.002,1,1,True
+2840,,MNIST,0.002,5.0,Convnet_maxpool.onnx,unsat,61.14768671989441,87.0,5.0,bab,5.0 Convnet_maxpool.onnx 0.002,1,1,True
+2777,,MNIST,0.002,49.0,Convnet_maxpool.onnx,unsat,61.21817040443421,835.0,49.0,bab,49.0 Convnet_maxpool.onnx 0.002,1,1,True
+2712,,MNIST,0.002,48.0,Convnet_maxpool.onnx,unsat,61.18989086151123,818.0,48.0,bab,48.0 Convnet_maxpool.onnx 0.002,1,1,True
+2651,,MNIST,0.002,47.0,Convnet_maxpool.onnx,unsat,61.005858659744256,801.0,47.0,bab,47.0 Convnet_maxpool.onnx 0.002,1,1,True
+2586,,MNIST,0.002,46.0,Convnet_maxpool.onnx,unsat,62.2206335067749,784.0,46.0,bab,46.0 Convnet_maxpool.onnx 0.002,1,1,True
+2525,,MNIST,0.002,45.0,Convnet_maxpool.onnx,unsat,61.19218111038208,767.0,45.0,bab,45.0 Convnet_maxpool.onnx 0.002,1,1,True
+2460,,MNIST,0.002,44.0,Convnet_maxpool.onnx,unsat,62.46183347702026,750.0,44.0,bab,44.0 Convnet_maxpool.onnx 0.002,1,1,True
+2398,,MNIST,0.002,43.0,Convnet_maxpool.onnx,unsat,63.65224504470825,733.0,43.0,bab,43.0 Convnet_maxpool.onnx 0.002,1,1,True
+2336,,MNIST,0.002,42.0,Convnet_maxpool.onnx,unsat,61.54300618171692,716.0,42.0,bab,42.0 Convnet_maxpool.onnx 0.002,1,1,True
+2272,,MNIST,0.002,41.0,Convnet_maxpool.onnx,unsat,62.849364519119256,699.0,41.0,bab,41.0 Convnet_maxpool.onnx 0.002,1,1,True
+4161,,MNIST,0.002,69.0,Convnet_maxpool.onnx,unsat,62.59948134422302,1175.0,69.0,bab,69.0 Convnet_maxpool.onnx 0.002,1,1,True
+4224,,MNIST,0.002,7.0,Convnet_maxpool.onnx,unsat,63.99256849288941,121.0,7.0,bab,7.0 Convnet_maxpool.onnx 0.002,1,1,True
+4289,,MNIST,0.002,70.0,Convnet_maxpool.onnx,unsat,61.22543525695801,1192.0,70.0,bab,70.0 Convnet_maxpool.onnx 0.002,1,1,True
+4351,,MNIST,0.002,71.0,Convnet_maxpool.onnx,unsat,62.00708556175232,1209.0,71.0,bab,71.0 Convnet_maxpool.onnx 0.002,1,1,True
+6177,,MNIST,0.002,98.0,Convnet_maxpool.onnx,unsat,61.01277756690979,1668.0,98.0,bab,98.0 Convnet_maxpool.onnx 0.002,1,1,True
+6115,,MNIST,0.002,97.0,Convnet_maxpool.onnx,unsat,60.936758518218994,1651.0,97.0,bab,97.0 Convnet_maxpool.onnx 0.002,1,1,True
+6052,,MNIST,0.002,96.0,Convnet_maxpool.onnx,unsat,62.44965648651123,1634.0,96.0,bab,96.0 Convnet_maxpool.onnx 0.002,1,1,True
+5988,,MNIST,0.002,95.0,Convnet_maxpool.onnx,unsat,61.21467137336731,1617.0,95.0,bab,95.0 Convnet_maxpool.onnx 0.002,1,1,True
+5925,,MNIST,0.002,94.0,Convnet_maxpool.onnx,unsat,61.85015845298767,1600.0,94.0,bab,94.0 Convnet_maxpool.onnx 0.002,1,1,True
+5862,,MNIST,0.002,93.0,Convnet_maxpool.onnx,unsat,60.91675162315369,1583.0,93.0,bab,93.0 Convnet_maxpool.onnx 0.002,1,1,True
+5800,,MNIST,0.002,92.0,Convnet_maxpool.onnx,sat,61.707066297531135,1566.0,92.0,bab,92.0 Convnet_maxpool.onnx 0.002,1,1,True
+5736,,MNIST,0.002,91.0,Convnet_maxpool.onnx,unsat,61.22603511810303,1549.0,91.0,bab,91.0 Convnet_maxpool.onnx 0.002,1,1,True
+5673,,MNIST,0.002,90.0,Convnet_maxpool.onnx,unsat,62.6930742263794,1532.0,90.0,bab,90.0 Convnet_maxpool.onnx 0.002,1,1,True
+5610,,MNIST,0.002,9.0,Convnet_maxpool.onnx,unsat,62.156777620315545,155.0,9.0,bab,9.0 Convnet_maxpool.onnx 0.002,1,1,True
+5547,,MNIST,0.002,89.0,Convnet_maxpool.onnx,unsat,60.96563529968262,1515.0,89.0,bab,89.0 Convnet_maxpool.onnx 0.002,1,1,True
+5484,,MNIST,0.002,88.0,Convnet_maxpool.onnx,unsat,62.28328013420105,1498.0,88.0,bab,88.0 Convnet_maxpool.onnx 0.002,1,1,True
+5421,,MNIST,0.002,87.0,Convnet_maxpool.onnx,unsat,61.403355360031135,1481.0,87.0,bab,87.0 Convnet_maxpool.onnx 0.002,1,1,True
+5359,,MNIST,0.002,86.0,Convnet_maxpool.onnx,unsat,60.60211873054504,1464.0,86.0,bab,86.0 Convnet_maxpool.onnx 0.002,1,1,True
+5297,,MNIST,0.002,85.0,Convnet_maxpool.onnx,unsat,61.18879508972168,1447.0,85.0,bab,85.0 Convnet_maxpool.onnx 0.002,1,1,True
+5233,,MNIST,0.002,84.0,Convnet_maxpool.onnx,unsat,62.91001892089844,1430.0,84.0,bab,84.0 Convnet_maxpool.onnx 0.002,1,1,True
+5171,,MNIST,0.002,83.0,Convnet_maxpool.onnx,unsat,66.37932300567627,1413.0,83.0,bab,83.0 Convnet_maxpool.onnx 0.002,1,1,True
+5106,,MNIST,0.002,82.0,Convnet_maxpool.onnx,unsat,60.623060941696174,1396.0,82.0,bab,82.0 Convnet_maxpool.onnx 0.002,1,1,True
+5043,,MNIST,0.002,81.0,Convnet_maxpool.onnx,unsat,62.40199875831604,1379.0,81.0,bab,81.0 Convnet_maxpool.onnx 0.002,1,1,True
+4980,,MNIST,0.002,80.0,Convnet_maxpool.onnx,unsat,63.14834713935852,1362.0,80.0,bab,80.0 Convnet_maxpool.onnx 0.002,1,1,True
+4918,,MNIST,0.002,8.0,Convnet_maxpool.onnx,unsat,60.82325506210327,138.0,8.0,bab,8.0 Convnet_maxpool.onnx 0.002,1,1,True
+4856,,MNIST,0.002,79.0,Convnet_maxpool.onnx,unsat,62.57913756370544,1345.0,79.0,bab,79.0 Convnet_maxpool.onnx 0.002,1,1,True
+4793,,MNIST,0.002,78.0,Convnet_maxpool.onnx,unsat,61.85540008544922,1328.0,78.0,bab,78.0 Convnet_maxpool.onnx 0.002,1,1,True
+4728,,MNIST,0.002,77.0,Convnet_maxpool.onnx,unsat,61.32408618927002,1311.0,77.0,bab,77.0 Convnet_maxpool.onnx 0.002,1,1,True
+4667,,MNIST,0.002,76.0,Convnet_maxpool.onnx,unsat,62.51711916923523,1294.0,76.0,bab,76.0 Convnet_maxpool.onnx 0.002,1,1,True
+4602,,MNIST,0.002,75.0,Convnet_maxpool.onnx,unsat,60.914637804031365,1277.0,75.0,bab,75.0 Convnet_maxpool.onnx 0.002,1,1,True
+4541,,MNIST,0.002,74.0,Convnet_maxpool.onnx,unsat,61.03957891464234,1260.0,74.0,bab,74.0 Convnet_maxpool.onnx 0.002,1,1,True
+4477,,MNIST,0.002,73.0,Convnet_maxpool.onnx,sat,62.81339836120606,1243.0,73.0,bab,73.0 Convnet_maxpool.onnx 0.002,1,1,True
+4414,,MNIST,0.002,72.0,Convnet_maxpool.onnx,unsat,61.68397307395935,1226.0,72.0,bab,72.0 Convnet_maxpool.onnx 0.002,1,1,True
+2208,,MNIST,0.002,40.0,Convnet_maxpool.onnx,unsat,61.290589094162,682.0,40.0,bab,40.0 Convnet_maxpool.onnx 0.002,1,1,True
+6242,,MNIST,0.002,99.0,Convnet_maxpool.onnx,unsat,61.61926817893982,1685.0,99.0,bab,99.0 Convnet_maxpool.onnx 0.002,1,1,True
+887,,MNIST,0.002,21.0,Convnet_maxpool.onnx,unsat,63.33121466636658,359.0,21.0,bab,21.0 Convnet_maxpool.onnx 0.002,1,1,True
+1075,,MNIST,0.002,24.0,Convnet_maxpool.onnx,unsat,63.02193260192871,410.0,24.0,bab,24.0 Convnet_maxpool.onnx 0.002,1,1,True
+1137,,MNIST,0.002,25.0,Convnet_maxpool.onnx,unsat,60.77944087982178,427.0,25.0,bab,25.0 Convnet_maxpool.onnx 0.002,1,1,True
+1328,,MNIST,0.002,28.0,Convnet_maxpool.onnx,unsat,61.34304547309876,478.0,28.0,bab,28.0 Convnet_maxpool.onnx 0.002,1,1,True
+759,,MNIST,0.002,2.0,Convnet_maxpool.onnx,unsat,60.10540962219238,36.0,2.0,bab,2.0 Convnet_maxpool.onnx 0.002,1,1,True
+1643,,MNIST,0.002,32.0,Convnet_maxpool.onnx,unsat,61.74682450294495,546.0,32.0,bab,32.0 Convnet_maxpool.onnx 0.002,1,1,True
+320,,MNIST,0.002,13.0,Convnet_maxpool.onnx,unsat,61.89131498336792,223.0,13.0,bab,13.0 Convnet_maxpool.onnx 0.002,1,1,True
+1200,,MNIST,0.002,26.0,Convnet_maxpool.onnx,unsat,62.10756468772888,444.0,26.0,bab,26.0 Convnet_maxpool.onnx 0.002,1,1,True
+381,,MNIST,0.002,14.0,Convnet_maxpool.onnx,unsat,61.71042609214783,240.0,14.0,bab,14.0 Convnet_maxpool.onnx 0.002,1,1,True
+696,,MNIST,0.002,19.0,Convnet_maxpool.onnx,unsat,64.12777447700499,325.0,19.0,bab,19.0 Convnet_maxpool.onnx 0.002,1,1,True
+1578,,MNIST,0.002,31.0,Convnet_maxpool.onnx,unsat,62.17937302589417,529.0,31.0,bab,31.0 Convnet_maxpool.onnx 0.002,1,1,True
+635,,MNIST,0.002,18.0,Convnet_maxpool.onnx,sat,63.05370116233826,308.0,18.0,bab,18.0 Convnet_maxpool.onnx 0.002,1,1,True
+445,,MNIST,0.002,15.0,Convnet_maxpool.onnx,unsat,61.268885850906365,257.0,15.0,bab,15.0 Convnet_maxpool.onnx 0.002,1,1,True
+1516,,MNIST,0.002,30.0,Convnet_maxpool.onnx,unsat,62.77405548095703,512.0,30.0,bab,30.0 Convnet_maxpool.onnx 0.002,1,1,True
+1263,,MNIST,0.002,27.0,Convnet_maxpool.onnx,unsat,61.68211793899536,461.0,27.0,bab,27.0 Convnet_maxpool.onnx 0.002,1,1,True
+1452,,MNIST,0.002,3.0,Convnet_maxpool.onnx,unsat,61.69536066055298,53.0,3.0,bab,3.0 Convnet_maxpool.onnx 0.002,1,1,True
+509,,MNIST,0.002,16.0,Convnet_maxpool.onnx,unsat,61.479042053222656,274.0,16.0,bab,16.0 Convnet_maxpool.onnx 0.002,1,1,True
+570,,MNIST,0.002,17.0,Convnet_maxpool.onnx,unsat,61.75235390663147,291.0,17.0,bab,17.0 Convnet_maxpool.onnx 0.002,1,1,True
+1389,,MNIST,0.002,29.0,Convnet_maxpool.onnx,unsat,62.53643727302551,495.0,29.0,bab,29.0 Convnet_maxpool.onnx 0.002,1,1,True
+1767,,MNIST,0.002,34.0,Convnet_maxpool.onnx,unsat,61.27830529212952,580.0,34.0,bab,34.0 Convnet_maxpool.onnx 0.002,1,1,True
+1706,,MNIST,0.002,33.0,Convnet_maxpool.onnx,unsat,62.61970829963684,563.0,33.0,bab,33.0 Convnet_maxpool.onnx 0.002,1,1,True
+1012,,MNIST,0.002,23.0,Convnet_maxpool.onnx,unsat,62.33298826217651,393.0,23.0,bab,23.0 Convnet_maxpool.onnx 0.002,1,1,True
+192,,MNIST,0.002,11.0,Convnet_maxpool.onnx,unsat,62.10482287406922,189.0,11.0,bab,11.0 Convnet_maxpool.onnx 0.002,1,1,True
+1957,,MNIST,0.002,37.0,Convnet_maxpool.onnx,unsat,60.44592213630676,631.0,37.0,bab,37.0 Convnet_maxpool.onnx 0.002,1,1,True
+255,,MNIST,0.002,12.0,Convnet_maxpool.onnx,unsat,62.93156027793884,206.0,12.0,bab,12.0 Convnet_maxpool.onnx 0.002,1,1,True
+2019,,MNIST,0.002,38.0,Convnet_maxpool.onnx,unsat,63.24769043922424,648.0,38.0,bab,38.0 Convnet_maxpool.onnx 0.002,1,1,True
+130,,MNIST,0.002,10.0,Convnet_maxpool.onnx,unsat,60.78784513473511,172.0,10.0,bab,10.0 Convnet_maxpool.onnx 0.002,1,1,True
+1893,,MNIST,0.002,36.0,Convnet_maxpool.onnx,unsat,61.23723340034485,614.0,36.0,bab,36.0 Convnet_maxpool.onnx 0.002,1,1,True
+824,,MNIST,0.002,20.0,Convnet_maxpool.onnx,unsat,61.53250122070313,342.0,20.0,bab,20.0 Convnet_maxpool.onnx 0.002,1,1,True
+66,,MNIST,0.002,1.0,Convnet_maxpool.onnx,unsat,61.869723081588745,19.0,1.0,bab,1.0 Convnet_maxpool.onnx 0.002,1,1,True
+949,,MNIST,0.002,22.0,Convnet_maxpool.onnx,unsat,61.54617285728455,376.0,22.0,bab,22.0 Convnet_maxpool.onnx 0.002,1,1,True
+2082,,MNIST,0.002,39.0,Convnet_maxpool.onnx,unsat,61.66448020935058,665.0,39.0,bab,39.0 Convnet_maxpool.onnx 0.002,1,1,True
+1831,,MNIST,0.002,35.0,Convnet_maxpool.onnx,unsat,62.36558985710144,597.0,35.0,bab,35.0 Convnet_maxpool.onnx 0.002,1,1,True
+4982,,MNIST,0.002,80.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1362.0,80.0,eran,80.0 Convnet_maxpool.onnx 0.002,0,0,False
+571,,MNIST,0.002,17.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,291.0,17.0,eran,17.0 Convnet_maxpool.onnx 0.002,0,0,False
+886,,MNIST,0.002,21.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,359.0,21.0,eran,21.0 Convnet_maxpool.onnx 0.002,0,0,False
+5044,,MNIST,0.002,81.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1379.0,81.0,eran,81.0 Convnet_maxpool.onnx 0.002,0,0,False
+633,,MNIST,0.002,18.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,308.0,18.0,eran,18.0 Convnet_maxpool.onnx 0.002,0,0,False
+4791,,MNIST,0.002,78.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1328.0,78.0,eran,78.0 Convnet_maxpool.onnx 0.002,0,0,False
+823,,MNIST,0.002,20.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,342.0,20.0,eran,20.0 Convnet_maxpool.onnx 0.002,0,0,False
+4604,,MNIST,0.002,75.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1277.0,75.0,eran,75.0 Convnet_maxpool.onnx 0.002,0,0,False
+4666,,MNIST,0.002,76.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1294.0,76.0,eran,76.0 Convnet_maxpool.onnx 0.002,0,0,False
+4919,,MNIST,0.002,8.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,138.0,8.0,eran,8.0 Convnet_maxpool.onnx 0.002,0,0,False
+760,,MNIST,0.002,2.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,36.0,2.0,eran,2.0 Convnet_maxpool.onnx 0.002,0,0,False
+697,,MNIST,0.002,19.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,325.0,19.0,eran,19.0 Convnet_maxpool.onnx 0.002,0,0,False
+4855,,MNIST,0.002,79.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1345.0,79.0,eran,79.0 Convnet_maxpool.onnx 0.002,0,0,False
+4729,,MNIST,0.002,77.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1311.0,77.0,eran,77.0 Convnet_maxpool.onnx 0.002,0,0,False
+5107,,MNIST,0.002,82.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1396.0,82.0,eran,82.0 Convnet_maxpool.onnx 0.002,0,0,False
+2083,,MNIST,0.002,39.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,665.0,39.0,eran,39.0 Convnet_maxpool.onnx 0.002,0,0,False
+5170,,MNIST,0.002,83.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1413.0,83.0,eran,83.0 Convnet_maxpool.onnx 0.002,0,0,False
+5737,,MNIST,0.002,91.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1549.0,91.0,eran,91.0 Convnet_maxpool.onnx 0.002,0,0,False
+6241,,MNIST,0.002,99.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1685.0,99.0,eran,99.0 Convnet_maxpool.onnx 0.002,0,0,False
+6178,,MNIST,0.002,98.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1668.0,98.0,eran,98.0 Convnet_maxpool.onnx 0.002,0,0,False
+67,,MNIST,0.002,1.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,19.0,1.0,eran,1.0 Convnet_maxpool.onnx 0.002,0,0,False
+6114,,MNIST,0.002,97.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1651.0,97.0,eran,97.0 Convnet_maxpool.onnx 0.002,0,0,False
+6053,,MNIST,0.002,96.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1634.0,96.0,eran,96.0 Convnet_maxpool.onnx 0.002,0,0,False
+129,,MNIST,0.002,10.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,172.0,10.0,eran,10.0 Convnet_maxpool.onnx 0.002,0,0,False
+5989,,MNIST,0.002,95.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1617.0,95.0,eran,95.0 Convnet_maxpool.onnx 0.002,0,0,False
+5926,,MNIST,0.002,94.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1600.0,94.0,eran,94.0 Convnet_maxpool.onnx 0.002,0,0,False
+5864,,MNIST,0.002,93.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1583.0,93.0,eran,93.0 Convnet_maxpool.onnx 0.002,0,0,False
+193,,MNIST,0.002,11.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,189.0,11.0,eran,11.0 Convnet_maxpool.onnx 0.002,0,0,False
+5799,,MNIST,0.002,92.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1566.0,92.0,eran,92.0 Convnet_maxpool.onnx 0.002,0,0,False
+256,,MNIST,0.002,12.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,206.0,12.0,eran,12.0 Convnet_maxpool.onnx 0.002,0,0,False
+5234,,MNIST,0.002,84.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1430.0,84.0,eran,84.0 Convnet_maxpool.onnx 0.002,0,0,False
+5674,,MNIST,0.002,90.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1532.0,90.0,eran,90.0 Convnet_maxpool.onnx 0.002,0,0,False
+319,,MNIST,0.002,13.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,223.0,13.0,eran,13.0 Convnet_maxpool.onnx 0.002,0,0,False
+5612,,MNIST,0.002,9.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,155.0,9.0,eran,9.0 Convnet_maxpool.onnx 0.002,0,0,False
+5549,,MNIST,0.002,89.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1515.0,89.0,eran,89.0 Convnet_maxpool.onnx 0.002,0,0,False
+5485,,MNIST,0.002,88.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1498.0,88.0,eran,88.0 Convnet_maxpool.onnx 0.002,0,0,False
+382,,MNIST,0.002,14.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,240.0,14.0,eran,14.0 Convnet_maxpool.onnx 0.002,0,0,False
+5422,,MNIST,0.002,87.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1481.0,87.0,eran,87.0 Convnet_maxpool.onnx 0.002,0,0,False
+4539,,MNIST,0.002,74.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1260.0,74.0,eran,74.0 Convnet_maxpool.onnx 0.002,0,0,False
+446,,MNIST,0.002,15.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,257.0,15.0,eran,15.0 Convnet_maxpool.onnx 0.002,0,0,False
+508,,MNIST,0.002,16.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,274.0,16.0,eran,16.0 Convnet_maxpool.onnx 0.002,0,0,False
+5295,,MNIST,0.002,85.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1447.0,85.0,eran,85.0 Convnet_maxpool.onnx 0.002,0,0,False
+5360,,MNIST,0.002,86.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1464.0,86.0,eran,86.0 Convnet_maxpool.onnx 0.002,0,0,False
+4163,,MNIST,0.002,69.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1175.0,69.0,eran,69.0 Convnet_maxpool.onnx 0.002,0,0,False
+4478,,MNIST,0.002,73.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1243.0,73.0,eran,73.0 Convnet_maxpool.onnx 0.002,0,0,False
+4415,,MNIST,0.002,72.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1226.0,72.0,eran,72.0 Convnet_maxpool.onnx 0.002,0,0,False
+4,,MNIST,0.002,0.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,2.0,0.0,eran,0.0 Convnet_maxpool.onnx 0.002,0,0,False
+1579,,MNIST,0.002,31.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,529.0,31.0,eran,31.0 Convnet_maxpool.onnx 0.002,0,0,False
+3090,,MNIST,0.002,53.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,903.0,53.0,eran,53.0 Convnet_maxpool.onnx 0.002,0,0,False
+3029,,MNIST,0.002,52.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,886.0,52.0,eran,52.0 Convnet_maxpool.onnx 0.002,0,0,False
+1642,,MNIST,0.002,32.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,546.0,32.0,eran,32.0 Convnet_maxpool.onnx 0.002,0,0,False
+2964,,MNIST,0.002,51.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,869.0,51.0,eran,51.0 Convnet_maxpool.onnx 0.002,0,0,False
+2903,,MNIST,0.002,50.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,852.0,50.0,eran,50.0 Convnet_maxpool.onnx 0.002,0,0,False
+1704,,MNIST,0.002,33.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,563.0,33.0,eran,33.0 Convnet_maxpool.onnx 0.002,0,0,False
+2839,,MNIST,0.002,5.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,87.0,5.0,eran,5.0 Convnet_maxpool.onnx 0.002,0,0,False
+2776,,MNIST,0.002,49.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,835.0,49.0,eran,49.0 Convnet_maxpool.onnx 0.002,0,0,False
+2713,,MNIST,0.002,48.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,818.0,48.0,eran,48.0 Convnet_maxpool.onnx 0.002,0,0,False
+1768,,MNIST,0.002,34.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,580.0,34.0,eran,34.0 Convnet_maxpool.onnx 0.002,0,0,False
+2649,,MNIST,0.002,47.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,801.0,47.0,eran,47.0 Convnet_maxpool.onnx 0.002,0,0,False
+2587,,MNIST,0.002,46.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,784.0,46.0,eran,46.0 Convnet_maxpool.onnx 0.002,0,0,False
+1832,,MNIST,0.002,35.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,597.0,35.0,eran,35.0 Convnet_maxpool.onnx 0.002,0,0,False
+2524,,MNIST,0.002,45.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,767.0,45.0,eran,45.0 Convnet_maxpool.onnx 0.002,0,0,False
+2461,,MNIST,0.002,44.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,750.0,44.0,eran,44.0 Convnet_maxpool.onnx 0.002,0,0,False
+1894,,MNIST,0.002,36.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,614.0,36.0,eran,36.0 Convnet_maxpool.onnx 0.002,0,0,False
+2399,,MNIST,0.002,43.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,733.0,43.0,eran,43.0 Convnet_maxpool.onnx 0.002,0,0,False
+1958,,MNIST,0.002,37.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,631.0,37.0,eran,37.0 Convnet_maxpool.onnx 0.002,0,0,False
+2335,,MNIST,0.002,42.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,716.0,42.0,eran,42.0 Convnet_maxpool.onnx 0.002,0,0,False
+2273,,MNIST,0.002,41.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,699.0,41.0,eran,41.0 Convnet_maxpool.onnx 0.002,0,0,False
+2209,,MNIST,0.002,40.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,682.0,40.0,eran,40.0 Convnet_maxpool.onnx 0.002,0,0,False
+2021,,MNIST,0.002,38.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,648.0,38.0,eran,38.0 Convnet_maxpool.onnx 0.002,0,0,False
+2147,,MNIST,0.002,4.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,70.0,4.0,eran,4.0 Convnet_maxpool.onnx 0.002,0,0,False
+1517,,MNIST,0.002,30.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,512.0,30.0,eran,30.0 Convnet_maxpool.onnx 0.002,0,0,False
+3218,,MNIST,0.002,55.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,937.0,55.0,eran,55.0 Convnet_maxpool.onnx 0.002,0,0,False
+3281,,MNIST,0.002,56.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,954.0,56.0,eran,56.0 Convnet_maxpool.onnx 0.002,0,0,False
+1202,,MNIST,0.002,26.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,444.0,26.0,eran,26.0 Convnet_maxpool.onnx 0.002,0,0,False
+4352,,MNIST,0.002,71.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1209.0,71.0,eran,71.0 Convnet_maxpool.onnx 0.002,0,0,False
+950,,MNIST,0.002,22.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,376.0,22.0,eran,22.0 Convnet_maxpool.onnx 0.002,0,0,False
+1011,,MNIST,0.002,23.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,393.0,23.0,eran,23.0 Convnet_maxpool.onnx 0.002,0,0,False
+4287,,MNIST,0.002,70.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1192.0,70.0,eran,70.0 Convnet_maxpool.onnx 0.002,0,0,False
+4225,,MNIST,0.002,7.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,121.0,7.0,eran,7.0 Convnet_maxpool.onnx 0.002,0,0,False
+1074,,MNIST,0.002,24.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,410.0,24.0,eran,24.0 Convnet_maxpool.onnx 0.002,0,0,False
+4098,,MNIST,0.002,68.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1158.0,68.0,eran,68.0 Convnet_maxpool.onnx 0.002,0,0,False
+4036,,MNIST,0.002,67.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1141.0,67.0,eran,67.0 Convnet_maxpool.onnx 0.002,0,0,False
+3974,,MNIST,0.002,66.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1124.0,66.0,eran,66.0 Convnet_maxpool.onnx 0.002,0,0,False
+1139,,MNIST,0.002,25.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,427.0,25.0,eran,25.0 Convnet_maxpool.onnx 0.002,0,0,False
+3909,,MNIST,0.002,65.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1107.0,65.0,eran,65.0 Convnet_maxpool.onnx 0.002,0,0,False
+3847,,MNIST,0.002,64.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1090.0,64.0,eran,64.0 Convnet_maxpool.onnx 0.002,0,0,False
+3343,,MNIST,0.002,57.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,971.0,57.0,eran,57.0 Convnet_maxpool.onnx 0.002,0,0,False
+3783,,MNIST,0.002,63.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1073.0,63.0,eran,63.0 Convnet_maxpool.onnx 0.002,0,0,False
+3722,,MNIST,0.002,62.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1056.0,62.0,eran,62.0 Convnet_maxpool.onnx 0.002,0,0,False
+1264,,MNIST,0.002,27.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,461.0,27.0,eran,27.0 Convnet_maxpool.onnx 0.002,0,0,False
+3659,,MNIST,0.002,61.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1039.0,61.0,eran,61.0 Convnet_maxpool.onnx 0.002,0,0,False
+1327,,MNIST,0.002,28.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,478.0,28.0,eran,28.0 Convnet_maxpool.onnx 0.002,0,0,False
+3595,,MNIST,0.002,60.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1022.0,60.0,eran,60.0 Convnet_maxpool.onnx 0.002,0,0,False
+3532,,MNIST,0.002,6.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,104.0,6.0,eran,6.0 Convnet_maxpool.onnx 0.002,0,0,False
+3469,,MNIST,0.002,59.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,1005.0,59.0,eran,59.0 Convnet_maxpool.onnx 0.002,0,0,False
+1390,,MNIST,0.002,29.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,495.0,29.0,eran,29.0 Convnet_maxpool.onnx 0.002,0,0,False
+3405,,MNIST,0.002,58.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,988.0,58.0,eran,58.0 Convnet_maxpool.onnx 0.002,0,0,False
+1453,,MNIST,0.002,3.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,53.0,3.0,eran,3.0 Convnet_maxpool.onnx 0.002,0,0,False
+3154,,MNIST,0.002,54.0,Convnet_maxpool.onnx,time-out or unsolved,3600.0,920.0,54.0,eran,54.0 Convnet_maxpool.onnx 0.002,0,0,False
