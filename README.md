@@ -44,7 +44,7 @@ To run ERAN-GPUPoly, use the following command:
 ### OVAL-BaDNB
 The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR). Example command:
 
-```python /your/path/ro/local_robustness_from_onnx.py --network_filename /your/path/to/network```
+```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/network```
 
 ### beta-CROWN
 beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command:
