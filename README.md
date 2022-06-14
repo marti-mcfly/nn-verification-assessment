@@ -29,7 +29,7 @@ GPU methods:
 
 ## Tool usage
 
-After installing the tools, you can use them to verify the networks in ```networks``` on the instances found in ```mnist_test.csv``` and ```cifar10_test.csv```. Note that we used a time budget of 3,600 seconds and set the number of CPU cores to 1 when running a verifier.
+After installing the tools, you can use them to verify the networks in ```networks``` on the instances found in ```mnist_test.csv``` and ```cifar10_test.csv```. Note that we used a time budget of 3 600 seconds and set the number of CPU cores to 1 when running a verifier.
 
 ### DNNV
 DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```. Example command:
