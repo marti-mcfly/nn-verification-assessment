@@ -124,6 +124,7 @@ def get_all_runtime(coalition, data):
             runtime[i] = None
 
     return runtime
+
 def get_solved_method(coalition, data):
     '''
     This methods returns the number of instances each verifier solved in the category.
@@ -385,7 +386,6 @@ def get_csv_for_all(benchmarks, categories):
 
     ''' 
     
-
     for i in categories:
         coalition = categories[i]
         df = pd.DataFrame(columns = coalition)
@@ -427,7 +427,6 @@ def get_csv_for_all(benchmarks, categories):
 
         df =df.T
         df.to_csv('contribution_results/'+ i + ".csv")
-
 
 
 
