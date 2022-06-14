@@ -25,14 +25,16 @@ CPU methods:
 GPU methods:
 - ERAN-GPUPoly (https://github.com/eth-sri/eran)
 - OVAL-BaDNB (https://github.com/oval-group/oval-bab)
-- ab-CROWN (https://github.com/huanzhang12/alpha-beta-CROWN)
+- beta-CROWN (https://github.com/huanzhang12/alpha-beta-CROWN)
 
 ## Tool usage
 
 After installing the tools, you can use them to verify the networks in ```networks``` on the instances found in ```mnist_test.csv``` and ```cifar10_test.csv```. Note that we used a time budget of 3,600 seconds and set the number of CPU cores to 1 when running a verifier.
 
 ### DNNV
-DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```.
+DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```. Example command:
+
+```dnnv --network N /your/path/to/network.onnx /your/path/to/property.py --verifier```
 
 ### ERAN-GPUPoly
 To run ERAN-GPUPoly, use the following command: 
@@ -42,8 +44,15 @@ To run ERAN-GPUPoly, use the following command:
 ### OVAL-BaDNB
 The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR). Example command:
 
-```python your/path/here/local_robustness_from_onnx.py --network_filename /your/path/to/network```
+```python /your/path/ro/local_robustness_from_onnx.py --network_filename /your/path/to/network```
+
+### beta-CROWN
+beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command:
+
+```python /your/path/to/robustness_verifier.py --config your.yaml```
 
 # Networks
 
-Network files were obtained from the public repositories of [ERAN](https://github.com/eth-sri/eran), Marabou, MIPVerify, Venus, Verinet and the 2021 VNN Competition
+Network files were obtained from the public repositories of [ERAN](https://github.com/eth-sri/eran), [Marabou](https://github.com/NeuralNetworkVerification/Marabou), [MIPVerify](https://github.com/vtjeng/MIPVerify.jl)(manually converted to onnx), [Venus](https://github.com/vas-group-imperial/venus), [Verinet](https://github.com/vas-group-imperial/VeriNet) and the [2021 VNN Competition](https://github.com/stanleybak/vnncomp2021). 
+
+Some network files could not be parsed by any of the considered tools and have been removed from consideration. The final list of networks for both MNIST and CIFAR can be found in ```networks```, along with their main properties (i.e., the layer operations they employ). 
