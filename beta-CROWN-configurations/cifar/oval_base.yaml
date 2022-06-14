@@ -1,0 +1,27 @@
+general:
+  device: cuda
+  enable_incomplete_verification: False
+  mode: verified-acc
+model:
+  name: cifar_model_base
+  path: ../models/oval/cifar_base.pth
+data:
+  dataset: CIFAR_ERAN
+  start: 0  # First example to verify in dataset. 
+  end: 100  # Last example to verify in dataset. We verify 100 examples in this test.
+specification:
+  epsilon: 0.002
+# attack:
+  # pgd_order: skip
+solver:
+  # beta-crown:
+  #   batch_size: 1024
+  #   iteration: 20
+  mip:
+    parallel_solvers: 1
+bab:
+  timeout: 3600
+  # branching:
+    # method: fsb
+    # reduceop: min
+    # candidates: 1

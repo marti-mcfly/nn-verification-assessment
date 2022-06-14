@@ -1,0 +1,20 @@
+general:
+  device: cuda
+  enable_incomplete_verification: False
+  mode: verified-acc
+model:
+  name: cifar_conv_big
+  path: ../models/eran/cifar_conv_big_pgd.pth
+data:
+  dataset: CIFAR_ERAN
+  start: 0  # First example to verify in dataset. 
+  end: 100  # Last example to verify in dataset. We verify 100 examples in this test.
+specification:
+  epsilon: 0.002
+# attack:
+#   pgd_restarts: 100
+solver:
+  mip:
+    parallel_solvers: 1
+bab:
+  timeout: 3600
