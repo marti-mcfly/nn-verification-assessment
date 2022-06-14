@@ -53,7 +53,7 @@ The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script tha
 ### beta-CROWN
 beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command:
 
-```python /your/path/to/robustness_verifier.py --config your.yaml```
+```python /your/path/to/robustness_verifier.py --config config.yaml```
 
 # Networks
 
