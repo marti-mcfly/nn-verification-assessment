@@ -57,6 +57,6 @@ beta-CROWN is employed on the network files provided in their repository. Howeve
 
 # Networks
 
-Network files were obtained from the public repositories of [ERAN](https://github.com/eth-sri/eran), [Marabou](https://github.com/NeuralNetworkVerification/Marabou), [MIPVerify](https://github.com/vtjeng/MIPVerify.jl)(manually converted to onnx), [Venus](https://github.com/vas-group-imperial/venus), [Verinet](https://github.com/vas-group-imperial/VeriNet) and the [2021 VNN Competition](https://github.com/stanleybak/vnncomp2021). 
+Network files were obtained from the public repositories of [ERAN](https://github.com/eth-sri/eran), [Marabou](https://github.com/NeuralNetworkVerification/Marabou), [MIPVerify](https://github.com/vtjeng/MIPVerify.jl) (manually converted to onnx), [Venus](https://github.com/vas-group-imperial/venus), [Verinet](https://github.com/vas-group-imperial/VeriNet) and the [2021 VNN Competition](https://github.com/stanleybak/vnncomp2021). 
 
 Some network files could not be parsed by any of the considered tools and have been removed from consideration. The final list of networks for both MNIST and CIFAR can be found in ```networks```, along with their main properties (i.e., the layer operations they employ). 
