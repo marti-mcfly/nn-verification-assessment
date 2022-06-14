@@ -13,7 +13,11 @@ This repository provides
 
 # Data
 
+EXPLAIN THE PERFORMANCE DATA, how is it organised
+
 # Scripts
+
+EXPLAIN WHAT THE SCRIPTS DO
 
 # Software 
 
