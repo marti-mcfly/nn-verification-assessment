@@ -1,3 +1,3 @@
-,mnist standalone,mnist marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime,cifar standalone,cifar marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
-bab,100,100,100.0,100,61.875820393562314,,0,0,0.0,0,3600.0,
-eran,0,0,0.0,0,3600.0,,100,100,100.0,100,271.62853,
+,mnist standalone,mnist absolute marginal contribution,mnist relative marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime,cifar standalone,cifar absolute marginal contribution,cifar relative marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
+bab,100,100,1.0,100.0,100,61.875820393562314,,0,0,0.0,0.0,0,,
+eran,0,0,0.0,0.0,0,3600.0,,100,100,1.0,100.0,100,271.62853,271.62853
