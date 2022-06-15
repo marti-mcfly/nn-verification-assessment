@@ -23,7 +23,7 @@ The input for this script consists of all ```.csv``` files found in ```performan
 
 ## Output
 
-Firstly, analyses results (in the contribution_results folder) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
+Firstly, analysis results (in ```contribution_results```) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
 Secondly, CDF plots, which can be found in ```figures/cdf```. For each network category and GPU/CPU group a CDF plot is created, as long as there are more than two verifiers in the given category.
 Thirdly, scatter plots which can be found in ```figures/scatter_plots```. For CPU/GPU seperated for each combination of verifiers in each network category a scatterplot is created. The data points indicate the running time in CPU/GPU seconds for each instance.
 All output is seperated by category, CPU/GPU and MNIST/CIFAR.
