@@ -13,13 +13,13 @@ This repository provides
 
 # Data
 
-EXPLAIN THE PERFORMANCE DATA, how is it organised
+Contains all collected performance data. The ```cpu``` sub-folder contains the individual ```.csv``` files separating between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
 
 # Scripts
 
 ## Input
 
-The input for this script consists of all ```.csv``` files found in ```performance_data```. The ```cpu``` sub-folder contains the individual ```.csv``` files separating between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
+The input for this script consists of all ```.csv``` files found in ```performance_data```. 
 
 ## Output
 
