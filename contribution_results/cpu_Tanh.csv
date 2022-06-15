@@ -1,2 +1,2 @@
-,mnist standalone,mnist marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime
-verinet,6308,6308,6308.0,6308,61.64878341788204,61.64878341788204
+,mnist standalone,mnist absolute marginal contribution,mnist relative marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime
+verinet,6308,6308,1.0,6308.0,6308,61.64878341788204,61.64878341788204

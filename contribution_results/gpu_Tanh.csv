@@ -1,2 +1,2 @@
-,cifar standalone,cifar marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
-eran,600,600,600.0,600,14.272153333333335,14.272153333333335
+,cifar standalone,cifar absolute marginal contribution,cifar relative marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
+eran,600,600,1.0,600.0,600,14.272153333333335,14.272153333333335

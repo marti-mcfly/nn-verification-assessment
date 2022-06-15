@@ -15,10 +15,9 @@ import seaborn as sns
 import pathlib 
 import itertools
 
-
-def get_marginal_contribution(data, coalition, score):
+def get_absolute_marginal_contribution(data, coalition, score):
     '''
-    This methods returns the marginal contributions for all the verifiers in the coalition for this category.
+    This methods returns the absolute marginal contributions for all the verifiers in the coalition for this category.
 
     INPUT:
     data: pandas with the experimental results, cleaned
@@ -37,6 +36,33 @@ def get_marginal_contribution(data, coalition, score):
         # print("marginal contribution " ,i , " is: " , score -  temp['score'].sum())
         res[i] =  score -  temp['score'].sum()
     return res
+
+def get_relative_marginal_contribution(data, coalition, score):
+    '''
+    This methods returns the marginal contributions for all the verifiers in the coalition for this category.
+
+    INPUT:
+    data: pandas with the experimental results, cleaned
+    coalition: the verifiers to be tested in the current category
+    score: the total coalition score
+    
+    OUTPUT:
+    res: output dictionary where the name of the verifier maps to the marginal contribution
+    ''' 
+    res ={}
+    total = 0 
+    for i in coalition: 
+        temp = data[data.Verifier != i]
+        temp = temp.sort_values(by=['score'], ascending= False)
+        temp.drop_duplicates(subset= ['instance'], inplace=True) #, keep = 'first')
+        # print("marginal contribution " ,i , " is: " , score -  temp['score'].sum())
+        res[i] =  score -  temp['score'].sum()
+        total = total + (score -  temp['score'].sum())
+    for i in coalition:
+        res[i] = (res[i]/total)
+
+    return res
+
 
 def get_total_coalition_score(data):
     '''
@@ -398,10 +424,15 @@ def get_csv_for_all(benchmarks, categories):
                 df = pd.concat([df, temp])
             
                 score = get_total_coalition_score(data)
-                x = get_marginal_contribution(data, coalition, score)
-                temp = pd.DataFrame(x, index=[ j + " marginal contribution"])
+                x = get_absolute_marginal_contribution(data, coalition, score)
+                temp = pd.DataFrame(x, index=[ j + " absolute marginal contribution"])
                 df = pd.concat([df, temp])
-                
+
+                score = get_total_coalition_score(data)
+                x = get_relative_marginal_contribution(data, coalition, score)
+                temp = pd.DataFrame(x, index=[ j + " relative marginal contribution"])
+                df = pd.concat([df, temp])
+
                 x = get_Shapley_values(coalition, data)
                 temp = pd.DataFrame(x, index=[ j + " shapley values"])
                 df = pd.concat([df, temp])

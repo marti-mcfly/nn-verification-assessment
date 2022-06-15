@@ -1,4 +1,4 @@
-,mnist standalone,mnist marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime,cifar standalone,cifar marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
-bab,1500,400,1016.6666666666666,1500,0.18711965688069662,,2467,71,1134.8333333333333,2467,48.75865494504823,11.164718310038248
-eran,700,0,350.0,700,1920.0973186666668,,2414,18,1073.0,2414,125.1873411102172,7.224383561643835
-abcrown,400,0,200.0,400,2640.4349947156907,,440,0,74.0,440,2963.0410530883655,1.1843265948230273
+,mnist standalone,mnist absolute marginal contribution,mnist relative marginal contribution,mnist shapley values,mnist number solved,mnist Average runtime,mnist All runtime,cifar standalone,cifar absolute marginal contribution,cifar relative marginal contribution,cifar shapley values,cifar number solved,cifar Average runtime,cifar All runtime
+bab,1500,800,1.0,1283.3333333333333,1500,0.18711965688069662,0.15492176703044344,2467,71,0.797752808988764,1134.8333333333333,2467,48.75865494504823,11.164718310038248
+eran,700,0,0.0,350.0,700,1920.0973186666668,0.20854,2414,18,0.20224719101123595,1073.0,2414,125.1873411102172,7.224383561643835
+abcrown,0,0,0.0,0.0,0,,,440,0,0.0,74.0,440,2963.0410530883655,1.1843265948230273
