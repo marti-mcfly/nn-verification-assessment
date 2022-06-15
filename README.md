@@ -17,11 +17,11 @@ EXPLAIN THE PERFORMANCE DATA, how is it organised
 
 # Scripts
 
-## INPUT
+## Input
 
 The input for this script consists of all ```.csv``` files found in ```performance_data```. The ```cpu``` sub-folder contains the individual ```.csv``` files separating between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
 
-## OUTPUT
+## Output
 
 Firstly, analyses results (in the contribution_results folder) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
 Secondly, CDF plots, which can be found in ```figures/cdf```. For each network category and GPU/CPU group a CDF plot is created, as long as there are more than two verifiers in the given category.
