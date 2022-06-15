@@ -17,6 +17,8 @@ Contains all collected performance data. The ```cpu``` sub-folder contains the i
 
 # Scripts
 
+In ```scripts```, you can find ```tables_and_figures.py``` - this script can be used to reproduce all result related figures and tables as seen in the paper and appendix.
+
 ## Input
 
 The input for this script consists of all ```.csv``` files found in ```performance_data```. 
