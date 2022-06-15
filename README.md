@@ -17,7 +17,16 @@ EXPLAIN THE PERFORMANCE DATA, how is it organised
 
 # Scripts
 
-EXPLAIN WHAT THE SCRIPTS DO
+## INPUT
+
+The input for this script consists of all ```.csv``` files found in ```performance_data```. The ```cpu``` sub-folder contains the individual ```.csv``` files separating between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
+
+## OUTPUT
+
+Firstly, analyses results (in the contribution_results folder) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
+Secondly, CDF plots, which can be found in ```figures/cdf```. For each network category and GPU/CPU group a CDF plot is created, as long as there are more than two verifiers in the given category.
+Thirdly, scatter plots which can be found in ```figures/scatter_plots```. For CPU/GPU seperated for each combination of verifiers in each network category a scatterplot is created. The data points indicate the running time in CPU/GPU seconds for each instance.
+All output is seperated by category, CPU/GPU and MNIST/CIFAR.
 
 # Software 
 
@@ -36,22 +45,26 @@ GPU methods:
 After installing the tools, you can use them to verify the networks in ```networks``` on the instances found in ```mnist_test.csv``` and ```cifar10_test.csv```. Note that we used a time budget of 3 600 seconds and set the number of CPU cores to 1 when running a verifier.
 
 ### DNNV
-DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```. Example command:
+DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```. 
+For example, employing Verinet through DNNV to verify mnist-net.onnx network on the first MNIST image with epsilon=0.004 can be done via the following command:
 
-```dnnv --network N /your/path/to/network.onnx /your/path/to/property.py --verifier```
+```dnnv --network N /your/path/to/networks/mnist/mnist-net.onnx /your/path/to/dnnv-properties/0004/mnist/property0.py --verinet```
+
+
 
 ### ERAN-GPUPoly
-To run ERAN-GPUPoly, use the following command: 
+Using ERAN-GPUPoly to verify the mnist-net.onnx network on the first 100 MNIST images with epsilon=0.004 can be done via the following command:
 
-```--netname /your/path/to/network --epsilon <float> --domain deeppoly --dataset <cifar10 or mnist> --complete True --numproc 1 --timeout_final_milp 3600```
+```--netname /your/path/to/networks/mnist/mnist-net.onnx --epsilon 0.004 --domain deeppoly --dataset <mnist> --complete True --numproc 1```
+
 
 ### OVAL-BaDNB
-The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR). Example command:
+The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR) and image index. Example command:
 
-```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/network```
+```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/networks/mnist/mnist-net.onnx```
 
 ### beta-CROWN
-beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command:
+beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command, where the network, dataset and epsilon is also specified in the ```.yaml``` file:
 
 ```python /your/path/to/robustness_verifier.py --config config.yaml```
 
