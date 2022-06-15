@@ -304,6 +304,51 @@ def scatter_per_method(coalition, data, name, names,gpu):
                 # plt.title(x)
                 plt.savefig('figures/scatter_plots/' + x , format = 'pdf' )
                 plt.show()
+
+
+def scatter_with_hue(coalition, data, name, names,gpu, hue_name):
+    '''
+    This creates and safes scatterplots of each combination of two verifiers in the coalition. 
+    The scatterpoints consist of the solving time.
+    The scatterpoints are colored based on the column in the data called **hue_name** 
+
+    INPUT:
+    data: pandas with the experimental results, cleaned
+    coalition: the verifiers to be tested in the current category
+    name: the name the plot should have
+    names : a list of strings containing the names of verifiers as used in the paper
+    gpu: boolean that is True if the category is a gpu category and False otherwise.
+    hue_name : this parameter takes the name of the column on which to color the graph.
+
+    OUTPUT:
+
+    ''' 
+    for i in range(0, len(coalition)-1):
+        for j in range(i+1, len(coalition)):
+            x = name + "_" + coalition[i] + "_" + coalition[j] + ".pdf"
+            data = data.sort_values(by=['instance'], ascending= False)
+            if (len(data[data.Verifier ==coalition[i]]['TotalTime'].tolist())== len(data[data.Verifier ==coalition[j]]['TotalTime'].tolist())):
+ 
+                temp = pd.DataFrame(data = {coalition[i] :data[data.Verifier ==coalition[i]]['TotalTime'].tolist(), coalition[j]: data[data.Verifier ==coalition[j]]['TotalTime'].tolist(), hue_name:data[data.Verifier ==coalition[i]]['TotalTime'].tolist()} ) 
+                sns.set(font_scale=2)
+                sns.set_style({'font.family':'serif', 'font.serif':'Times New Roman'})
+                # sns.set_style("whitegrid")
+                plt.figure(figsize=(12,12))
+                ax = sns.scatterplot(data = temp, x = coalition[i] ,y= coalition[j] , palette="deep", hue = hue_name)
+                plt.plot([10e4, 0], [10e4, 0], linewidth=1)
+                ax.legend(bbox_to_anchor=(1, 0.75))
+                ax.set(xscale="log", yscale="log")
+                ax.set(xlim=(10e-4, 10e4))
+                ax.set(ylim=(10e-4, 10e4))
+                if(gpu == True):
+                    ax.set(xlabel= "GPU time [s], " + names[i], ylabel="GPU time [s], " + names[j])
+                else:
+                    ax.set(xlabel= "CPU time [s], " + names[i], ylabel="CPU time [s], " + names[j])
+
+                # plt.title(x)
+                plt.savefig('figures/scatter_plots/' + x , format = 'pdf', bbox_inches='tight' )
+                plt.show()
+            
             
 def get_names_and_files(benchmark, categorie):
     '''
@@ -491,3 +536,13 @@ get_csv_for_all(benchmarks, categories)
 # print(get_Shapley_values( categories["Relu"], data))
 # #get cdf for this categorie
 # cdf_per_method( data, "test_cdf" ,names, False)
+
+'''If you'd like to do more analysis to the data,
+   seperating the scatter plots based on a value in the data, such as the epsilon value,
+   can be handy. 
+   This is an example with epsilon. '''
+#only mandatory step!
+# names, data = get_names_and_files("mnist" , categories["cpu_Relu"])
+
+
+# scatter_with_hue(categories["cpu_Relu"], data, "colored_scatter_", names,False, "Epsilon")
