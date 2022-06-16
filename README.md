@@ -47,7 +47,7 @@ GPU methods:
 After installing the tools, you can use them to verify the networks in ```networks``` on the instances found in ```mnist_test.csv``` and ```cifar10_test.csv```. Note that we used a time budget of 3 600 seconds and set the number of CPU cores to 1 when running a verifier.
 
 ### DNNV
-DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv-properties```. 
+DNNV takes as inputs the network file and a property specification. These specifications can be found in ```dnnv_properties```. 
 For example, employing Verinet through DNNV to verify mnist-net.onnx network on the first MNIST image with epsilon=0.004 can be done via the following command:
 
 ```dnnv --network N /your/path/to/networks/mnist/mnist-net.onnx /your/path/to/dnnv-properties/0004/mnist/property0.py --verinet```
@@ -66,7 +66,7 @@ The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script tha
 ```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/networks/mnist/mnist-net.onnx```
 
 ### beta-CROWN
-beta-CROWN is applied to the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command, where the network, dataset and epsilon is also specified in the ```.yaml``` file:
+beta-CROWN is applied to the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN_configurations```. Using these configuration files, running beta-CROWN can be done through the following command, where the network, dataset and epsilon is also specified in the ```.yaml``` file:
 
 ```python /your/path/to/robustness_verifier.py --config config.yaml```
 
