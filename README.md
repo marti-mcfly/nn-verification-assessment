@@ -9,15 +9,15 @@ This repository provides
 - the performance data collected for this study;
 - the scripts we used to perform the data analysis;
 - an overview of the used software;
-- the neural network files we employed to verifiers to.
+- the neural network files to which we applied verifiers.
 
 # Data
 
-Contains all collected performance data. The ```cpu``` sub-folder contains the individual ```.csv``` files separating between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
+Contains all collected performance data. The ```cpu``` sub-folder contains the individual ```.csv``` files, separated between MNIST and CIFAR as well as network category, and contains performance data for all considered verifiers, epsilons, networks in the given category and test images. The data file further contains the total running time and an indication whether the verification problem instance was found to be sat/unsat or unsolved. The ```gpu``` folder is structured similarly.
 
 # Scripts
 
-In ```scripts```, you can find ```tables_and_figures.py``` - this script can be used to reproduce all result related figures and tables as seen in the paper and appendix.
+In ```scripts```, you can find ```tables_and_figures.py``` - this script can be used to reproduce the figures and tables showing results from our experiments in the paper and appendix.
 
 ## Input
 
@@ -25,9 +25,9 @@ The input for this script consists of all ```.csv``` files found in ```performan
 
 ## Output
 
-Firstly, analysis results (in ```contribution_results```) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
-Secondly, CDF plots, which can be found in ```figures/cdf```. For each network category and GPU/CPU group a CDF plot is created, as long as there are more than two verifiers in the given category.
-Thirdly, scatter plots which can be found in ```figures/scatter_plots```. For CPU/GPU seperated for each combination of verifiers in each network category a scatterplot is created. The data points indicate the running time in CPU/GPU seconds for each instance.
+Firstly, analysis results (in ```contribution_results```) consisting of standalone performance per verifier, absolute marginal contribution, relative marginal contribution, Shapley value, average running time over all instances that could be solved by at least one verifier and average running time over all instances that could be solved by all verifiers. The contribution results are seperated by CPU/GPU methods and network category.
+Secondly, CDF plots, which can be found in ```figures/cdf```. For each network category and GPU/CPU group, a CDF plot was created, as long as there are more than two verifiers in the given category.
+Thirdly, scatter plots, which can be found in ```figures/scatter_plots```. For each category, these are created for every possible pair of verifiers. The data points indicate the running time in CPU/GPU seconds for each instance.
 All output is seperated by category, CPU/GPU and MNIST/CIFAR.
 
 # Software 
@@ -66,7 +66,7 @@ The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script tha
 ```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/networks/mnist/mnist-net.onnx```
 
 ### beta-CROWN
-beta-CROWN is employed on the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command, where the network, dataset and epsilon is also specified in the ```.yaml``` file:
+beta-CROWN is applied to the network files provided in their repository. However, we set all hyper-parameters to default; see the ```.yaml``` files in ```beta-CROWN-configurations```. Using these configuration files, running beta-CROWN can be done through the following command, where the network, dataset and epsilon is also specified in the ```.yaml``` file:
 
 ```python /your/path/to/robustness_verifier.py --config config.yaml```
 
