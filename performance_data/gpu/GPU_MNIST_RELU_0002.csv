@@ -4499,3 +4499,4 @@
 2969,,,0.002,51.0,fc2.onnx,time-out or unsolved,3600.0,351.0,,abcrown,51.0 fc2.onnx 0.002,0,0,False
 2976,,MNIST,0.002,51.0,mnist_3_100.onnx,time-out or unsolved,3600.0,875.0,51.0,eran,51.0 mnist_3_100.onnx 0.002,0,0,False
 6299,,,0.002,99.0,rsl18a_linf01.onnx,time-out or unsolved,3600.0,199.0,,abcrown,99.0 rsl18a_linf01.onnx 0.002,0,0,False
+
