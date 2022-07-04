@@ -61,7 +61,7 @@ Using ERAN-GPUPoly to verify the mnist-net.onnx network on the first 100 MNIST i
 
 
 ### OVAL-BaDNB
-The OVAL-BADNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR) and image index. Example command:
+The OVAL-BaDNB framework provides ```local_robustness_from_onnx.py``` script that takes an input the network file. Inside the script, you can set the pertubation radius as well as the dataset (MNIST or CIFAR) and image index. Example command:
 
 ```python /your/path/to/local_robustness_from_onnx.py --network_filename /your/path/to/networks/mnist/mnist-net.onnx```
 
